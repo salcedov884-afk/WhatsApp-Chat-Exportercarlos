@@ -1,3 +1,4 @@
+
 import subprocess
 import unittest
 import tempfile
@@ -9,7 +10,7 @@ from scripts.brazilian_number_processing import process_phone_number, process_vc
 
 class TestVCardProcessor(unittest.TestCase):
 
-    def test_process_phone_number(self):
+    def test_process_phone_number6861366319(self):
         """Test the process_phone_number function with various inputs."""
 
         # Test cases for 9-digit subscriber numbers

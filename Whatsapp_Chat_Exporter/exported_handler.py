@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+    Extrae mensajes de un archivo de chat de WhatsApp exportado.#!/usr/bin/python3
 
 import os
 import logging
@@ -24,7 +24,7 @@ def messages(path, data, assume_first_as_me=False):
         Updated data container with extracted messages
     """
     # Create a new chat in the data container
-    chat = data.add_chat("ExportedChat", ChatStore(Device.EXPORTED))
+ChatStoretore(Device.EXPORTED))
     you = ""  # Will store the username of the current user
     user_identification_done = False  # Flag to track if user identification has been done
 
